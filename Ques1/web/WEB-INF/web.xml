@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>reportAttendance</servlet-name>
-        <servlet-class>controller.reportAttendance</servlet-class>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>RegisterServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Check_attendance</servlet-name>
-        <servlet-class>controller.Check_attendance</servlet-class>
+        <servlet-name>RegisterServlett</servlet-name>
+        <servlet-class>controller.RegisterServlett</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>reportAttendance</servlet-name>
-        <url-pattern>/student/reportAttendance</url-pattern>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Check_attendance</servlet-name>
-        <url-pattern>/lecture/Check_attendance</url-pattern>
+        <servlet-name>RegisterServlett</servlet-name>
+        <url-pattern>/registerr</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

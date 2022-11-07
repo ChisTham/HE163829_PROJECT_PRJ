@@ -7,6 +7,10 @@
         <servlet-class>controller.TimetableController</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>AttController</servlet-name>
+        <servlet-class>controller.AttController</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>LoginController</servlet-name>
         <servlet-class>controller.LoginController</servlet-class>
     </servlet>
@@ -19,20 +23,32 @@
         <url-pattern>/lecturer/timetable</url-pattern>
     </servlet-mapping>
     <servlet>
-        <servlet-name>reportAttendance</servlet-name>
-        <servlet-class>controller.reportAttendance</servlet-class>
+        <servlet-name>StatisticsController</servlet-name>
+        <servlet-class>controller.StatisticsController</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>Check_attendance</servlet-name>
-        <servlet-class>controller.Check_attendance</servlet-class>
+        <servlet-name>LogoutController</servlet-name>
+        <servlet-class>controller.LogoutController</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>reportAttendance</servlet-name>
-        <url-pattern>/student/reportAttendance</url-pattern>
+        <servlet-name>LecturerTimetableController</servlet-name>
+        <url-pattern>/lecturer/timetable</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>Check_attendance</servlet-name>
-        <url-pattern>/lecture/Check_attendance</url-pattern>
+        <servlet-name>AttController</servlet-name>
+        <url-pattern>/lecturer/take_attandance</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StatisticsController</servlet-name>
+        <url-pattern>/lecturer/statistics</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutController</servlet-name>
+        <url-pattern>/lecturer/logout</url-pattern>
     </servlet-mapping>
     
     <session-config>

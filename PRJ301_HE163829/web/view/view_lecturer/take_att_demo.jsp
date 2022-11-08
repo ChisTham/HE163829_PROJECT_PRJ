@@ -35,7 +35,7 @@
                 font-size: 14px;
 
             }
-            
+
             .a {
                 width:100%;
                 height: 30px;
@@ -98,17 +98,10 @@
 
 
 
-            
+
             <div>
                 <h1>Take Attendance</h1>  
             </div>
-            <div>
-                <p> <span>Attendance for</span>
-                    <b>${requestScope.ses.lecturer.name}</b> at Slot  ${requestScope.ses.timeslot.id} on ${requestScope.ses.date}, Fall, at ${requestScope.ses.room.name}.
-                    This is the session number ${requestScope.ses.id +1 } of the course.
-                </p>
-            </div>
-
 
             <div class="b">
                 <form action="take_attandance" method="POST">

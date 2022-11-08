@@ -116,8 +116,7 @@
                 </tr>   
             </table>
             <br/>
-            Giang vien sonnt5 da day ${requestScope.teached}/${requestScope.numberses} (${requestScope.perteached}%)
-
+            ${requestScope.teached}/${requestScope.numberses} (${requestScope.perteached}%)
         </div>
     </body>
 </html>

@@ -78,7 +78,7 @@
                 padding: 8px;
             }
             .b th {
-                background-color: blue;
+                background-color: green;
             }
             .save {
                 margin-top: 20px;
@@ -93,38 +93,12 @@
                 <div id="head">
                     <h1><span id="head">FPT University Academic Portal</span></h1>
                 </div>
-                <div>
-                    <table>
-                        <tr>
-                            <td><strong  style=" font-weight: bold; font-size: 13px;">FAP mobile app (myFAP) is ready at</strong></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://apps.apple.com/app/id1527723314">
-                                    <img src="https://fap.fpt.edu.vn/images/app-store.svg" style="width: 120px; height: 40px" alt="apple store" /></a></td>
-                            <td><a href="https://play.google.com/store/apps/details?id=com.fuct">
-                                    <img src="https://fap.fpt.edu.vn/images/play-store.svg" style="width: 120px; height: 40px" alt="google store" /></a></td>
-
-                        </tr>
-                    </table> 
-                </div>
 
             </div>
 
 
 
-            <div class="a">
-                <div class="a1">
-                    <a href="">
-                        <span>${requestScope.ses.lecturer.name}</span>
-                    </a> | 
-                    <span> CAMPUS: FPTU-Hòa Lạc</span>
-                </div>
-                <div class="a2">
-                    <span>
-                        <a href="timetable" style="text-decoration: none">Timetable of lecture</a>                   
-                    </span>
-                </div>
-            </div>
+            
             <div>
                 <h1>Take Attendance</h1>  
             </div>
@@ -142,13 +116,13 @@
                     <table>
                         <thead>
                             <tr>
-                                <th>NO</th>
+                                <th>No</th>
                                 <th>StudentID</th>
                                 <th>GroupID</th>
-                                <th>FULLNAME</th>
-                                <th>PRESENT</th>
-                                <th>ABSENT</th>
-                                <th>COMMENT</th>
+                                <th>Fullname</th>
+                                <th>Present</th>
+                                <th>Absent</th>
+                                <th>Comment</th>
                             </tr>
                         </thead>
                         <tbody>

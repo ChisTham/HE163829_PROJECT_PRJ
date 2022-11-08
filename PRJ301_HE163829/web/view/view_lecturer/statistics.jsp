@@ -36,11 +36,11 @@
                 border-collapse: collapse;
             }
             .thead td{
-                background-color: blue;
+                background-color: green;
                 font-weight:bold ;
                 padding: 7px;
             }
-            
+
 
 
 
@@ -54,20 +54,6 @@
             <div class="header1">
                 <div id="head">
                     <h1><span id="head">FPT University Academic Portal</span></h1>
-                </div>
-                <div>
-                    <table>
-                        <tr>
-                            <td><strong  style=" font-weight: bold; font-size: 13px;">FAP mobile app (myFAP) is ready at</strong></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://apps.apple.com/app/id1527723314">
-                                    <img src="https://fap.fpt.edu.vn/images/app-store.svg" style="width: 120px; height: 40px" alt="apple store" /></a></td>
-                            <td><a href="https://play.google.com/store/apps/details?id=com.fuct">
-                                    <img src="https://fap.fpt.edu.vn/images/play-store.svg" style="width: 120px; height: 40px" alt="google store" /></a></td>
-
-                        </tr>
-                    </table> 
                 </div>
 
             </div>
@@ -91,7 +77,7 @@
                     <c:forEach items="${requestScope.group.sessions}" var="ses">
                         <td> session ${ses.index}</td>
                     </c:forEach>
-                                             
+
                 </tr>
 
                 <c:forEach items="${requestScope.group.students}" var="std" varStatus="loop"> <!-- vong lap so session -->
@@ -125,13 +111,13 @@
                                 </c:if>
                             </c:forEach>
                         </c:forEach>   
-                        
+
                     </c:forEach>    
                 </tr>   
             </table>
-                <br/>
-                Giang vien sonnt5 da day ${requestScope.teached}/${requestScope.numberses} (${requestScope.perteached}%)
-                
+            <br/>
+            Giang vien sonnt5 da day ${requestScope.teached}/${requestScope.numberses} (${requestScope.perteached}%)
+
         </div>
     </body>
 </html>

@@ -200,20 +200,6 @@
                 <div id="head">
                     <h1><span id="head">FPT University Academic Portal ${OnlineUsers} </span></h1>
                 </div>
-                <div>
-                    <table>
-                        <tr>
-                            <td><strong  style=" font-weight: bold; font-size: 13px;">FAP mobile app (myFAP) is ready at</strong></td>
-                        </tr>
-                        <tr>
-                            <td><a href="https://apps.apple.com/app/id1527723314">
-                                    <img src="https://fap.fpt.edu.vn/images/app-store.svg" style="width: 120px; height: 40px" alt="apple store" /></a></td>
-                            <td><a href="https://play.google.com/store/apps/details?id=com.fuct">
-                                    <img src="https://fap.fpt.edu.vn/images/play-store.svg" style="width: 120px; height: 40px" alt="google store" /></a></td>
-
-                        </tr>
-                    </table> 
-                </div>
 
             </div>
             <div>
@@ -306,41 +292,6 @@
                         </c:forEach>
 
                     </tbody>
-                </table>
-                <div class="last">
-                    <div>
-                        <p>
-                            <b>More note / Chú thích thêm</b>:
-                        </p>
-                        <div>
-                            <ul>
-                                <li>(<font color='green'>attended</font>): ${requestScope.lecturer.name} had attended this activity / ${requestScope.lecturer.name} đã tham gia hoạt động này</li>
-                                <li>(<font color='red'>Not Yet</font>): ${requestScope.lecturer.name} have NOT attended this activity / ${requestScope.lecturer.name} chưa tham gia buổi này</li>   
-                                <li>(-): no data was given / chưa có dữ liệu</li> 
-                            </ul>
-                        </div>
-                        <br/>
-                    </div>
-                    </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <br />
-                            <table>
-                                <tr>
-                                    <td>
-                                        <div id="last2">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td id="last3">
-                                        <p style="text-align: center">
-
-                                        </p>     </td>  
-                                </tr>
-
-                </div>
-                </table>
             </div>
         </div>      
 
